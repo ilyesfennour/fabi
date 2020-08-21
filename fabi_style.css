@@ -1,0 +1,154 @@
+/*
+the version: alpha
+starting date: 08/08/2020 20:50
+finishing date: 11/08/2020 16:22
+the auteur: ilyes fennour
+product name: fabi
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #FCF3F2;
+
+}
+
+#nheader{
+    height: 130px;
+    background-color: green;
+    
+}
+
+.logo{    
+    float: right;
+    padding: 10px;
+    background-color: green;
+}
+
+#nnav{
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: grey;
+}
+
+#nnav > ul{
+    margin: 0px;
+    padding: 0px;
+    float: right;
+    list-style-type: none;
+    width: 100%;
+}
+
+#nnav > ul > li {
+    text-align: center;
+}
+
+.rr:hover{
+    background-color: #979A9A;
+    color: #283747;
+}
+
+.rr{
+    padding: 15px 20px;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#dolar{
+    width: 69%;
+    height: 100px;
+    border: solid 2px;
+    float: right;
+}
+
+.dolar{
+    float: right;
+    text-align: center;
+    height: 30px;
+    margin: 70px 42%;
+    padding: 0px 10px;
+}
+
+#marticle{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin: 10px 0px;
+}
+
+#marticle h2{
+    background-color: white;
+}
+
+#marticle ul{
+    padding: 20px;
+}
+
+#marticle ul li{
+    color: black;
+    padding-top: 30px;
+    padding: 5px 0px;
+    background-color: white;
+    display: block;
+
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.ch:link, .ch:visited{color: #000;}
+.ch:hover, .ch:active{color: red;}
+
+.border{
+    display: inline-block;
+    text-align: center;
+    width: 24%;
+}
+
+.tit{
+    background-color: white;
+    text-align: right;
+    padding: 25px 10px;
+}
+
+.buy{
+    background-color: chocolate;
+    padding: 2px 30px;
+    margin: 5px 0px;
+}
+
+#nfooter{
+    background-color: grey;
+    padding: 20px;
+    text-align: right;
+}
+
+#help{
+    background-color: white;
+    text-align: right;
+    margin: 5px 2px;
+    height: 70px;
+}
+
+.title_help{
+    padding: 10px 40px;
+    line-height: 20px;
+}
+
+.p_help{
+    padding: 5px 10px;
+}
+
