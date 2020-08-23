@@ -1,7 +1,7 @@
 /*
-the version: alpha
-starting date: 08/08/2020 20:50
-finishing date: 11/08/2020 16:22
+the version: beta1
+starting date: 16/08/2020 10:19
+finishing date: 23/08/2020 11:16
 the auteur: ilyes fennour
 product name: fabi
 */
@@ -17,7 +17,7 @@ body{
 }
 
 #nheader{
-    height: 130px;
+    height: 93px;
     background-color: green;
     
 }
@@ -26,6 +26,11 @@ body{
     float: right;
     padding: 10px;
     background-color: green;
+}
+
+#logo_ad{
+    float: right;
+    padding: 10px;
 }
 
 #nnav{
@@ -63,16 +68,36 @@ body{
 #dolar{
     width: 69%;
     height: 100px;
-    border: solid 2px;
     float: right;
+    text-align: center;
 }
 
 .dolar{
-    float: right;
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 30px 0px;
+    font-size: 24px;
+    cursor: pointer;
     text-align: center;
-    height: 30px;
-    margin: 70px 42%;
-    padding: 0px 10px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
+
+.dolar:hover{
+    background-color: red;
+    color: white;
+}
+
+.dolar:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
 }
 
 #marticle{
@@ -109,8 +134,8 @@ a{
     color: #000;
 }
 
-.ch:link, .ch:visited{color: #000;}
-.ch:hover, .ch:active{color: red;}
+.ch a:link, .ch a:visited{color: #000;}
+.ch a:hover, .ch a:active{color: red;}
 
 .border{
     display: inline-block;
@@ -122,25 +147,49 @@ a{
     background-color: white;
     text-align: right;
     padding: 25px 10px;
+    margin: 10px 0px;
 }
 
 .buy{
-    background-color: chocolate;
-    padding: 2px 30px;
-    margin: 5px 0px;
+    display: inline-block;
+    padding: 3px 25px;
+    margin: 3px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FF4C64;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
+
+.buy:hover{
+    background-color: #A5071B;
+    color: white;
+}
+
+.buy:active{
+    background-color: #3e8e41;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
 }
 
 #nfooter{
     background-color: grey;
     padding: 20px;
     text-align: right;
+    margin-top: 10px;
 }
 
 #help{
     background-color: white;
     text-align: right;
     margin: 5px 2px;
-    height: 70px;
+    height: 100px;
 }
 
 .title_help{
@@ -149,6 +198,7 @@ a{
 }
 
 .p_help{
-    padding: 5px 10px;
+    padding: 10px 15px;    
 }
+
 
